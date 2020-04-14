@@ -1,5 +1,5 @@
 # Sum up a and b. Write expression to the result_sum variable
-
+import math
 a = 10
 b = 15
 result_sum = a + b
@@ -27,7 +27,7 @@ result_division = g / h
 
 
 # Calculate the floored division result of i and j. Save the expression to the result_division_floored variable
-import math
+
 i = 10
 j = 15
 result_division_floored = math.floor(i / j)
