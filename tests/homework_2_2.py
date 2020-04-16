@@ -86,7 +86,7 @@ def test_input_value():
 
 
 def test_multiplication_string():
-    # Input a random number, then save the value to n variable.
+    # Enter a random number, then save the value to n variable.
     # Finally, you should repeat the variable "word" n times and save the value to result_string_3
     if n == None or result_string_3 == None or word == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")

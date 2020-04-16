@@ -75,14 +75,14 @@ def test_two_numbers():
 
 
 def test_number():
-    # Input a number that is under 20 in number_1 variable. Check if this number is 20 or
-    # higher, save in result_2 “Too high” text, otherwise save “Thank you”.
+    # Input a number that is under 20 in number_1 variable. If this number is 20 or
+    # # higher save “Too high” text to result_2, otherwise save “Thank you”.
     if result_2 == None or number_1 == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
-    if number_1 > 20:
-        assert result_2 == "Thank you"
-    else:
+    if number_1 >= 20:
         assert result_2 == "Too high"
+    else:
+        assert result_2 == "Thank you"
 
 
 def test_full_name():
@@ -156,3 +156,5 @@ def test_month():
         assert result_month == 'November'.lower()
     if month == 12:
         assert result_month == 'December'.lower()
+    if month > 12:
+        pytest.fail('Choose number between 1 and 12')

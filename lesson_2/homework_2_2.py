@@ -15,7 +15,7 @@ number = None
 result_value = None
 
 
-# Input a random number, then save the value to n variable.
+# Enter a random number, then save the value to n variable.
 # Finally, you should repeat the variable "word" n times and save the value to result_string_3
 
 n = None

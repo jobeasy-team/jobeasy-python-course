@@ -118,12 +118,12 @@ def test_name_length():
 def test_even():
     # Input a random number. Save this value to random_number variable
     # If this number is less 10 or greater than 99, save the text "Please, put in a number between 10 and 99" to result_4
-    # If a number meets the first condition, find the reminder of random_value divided by 2.
+    # If a number doesn't meet the first condition, find the remainder of random_value divided by 2.
     # If it is 0, save the text "Even number" to result_4 , else save the message "Odd number"
     if random_number == None or result_4 == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
     if random_number < 10 or random_number > 99:
-        assert result_4 == "Please, pun number between 10 and 99"
+        assert result_4 == "Please, put in a number between 10 and 99"
     else:
         if random_number % 2 == 0:
             assert result_4 == "Even number"

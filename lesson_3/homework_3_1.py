@@ -6,8 +6,8 @@ second_number = None
 result_1 = None
 
 
-# Input a number that is under 20 in number_1 variable. Check if this number is 20 or
-# higher, save in result_2 “Too high” text, otherwise save “Thank you”.
+# Input a number that is under 20 in number_1 variable. If this number is 20 or
+# # higher save “Too high” text to result_2, otherwise save “Thank you”.
 number_1 = None
 result_2 = None
 

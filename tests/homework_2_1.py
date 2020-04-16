@@ -93,14 +93,14 @@ def test_create_string():
 
 
 def test_create_name():
-    # Input a string with your name using console and save the result to result_name variable
+    # Enter a string with your name using console and save the result to result_name variable
     if result_name == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
     assert type(result_name) is str
 
 
 def test_create_full_name():
-    # Input your first and  last name. Join them together with a space in
+    # Enter your first and  last name. Join them together with a space in
     # between. Save a result in a variable result_full_name and
     # save the length of the whole name in result_full_name_length variable.
     if first_name == None or last_name == None or result_full_name == None or result_full_name_length == None:
@@ -112,15 +112,15 @@ def test_create_full_name():
 
 
 def test_create_capital():
-    # Input the capital city of California State in lower case. Change the case to title case.
+    # Enter the capital city of California State in lower case. Change the case to title case.
     # Save the result in result_ca_capital variable
     if result_ca_capital == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
-    assert f'sacramento'.capitalize() == result_ca_capital
+    assert f'sacramento'.lower() == result_ca_capital
 
 
 def test_result_planet():
-    # Input the name of our planet. Change the case to upper case. Save the result in
+    # Enter the name of our planet. Change the case to upper case. Save the result in
     # result_planet variable
     if result_planet == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
