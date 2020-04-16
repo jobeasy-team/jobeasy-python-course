@@ -51,3 +51,4 @@ result_power = pow(m, n)
 
 o = 100
 result_negative = -o
+
