@@ -100,7 +100,7 @@ def test_division():
 
 def test_division_floored():
     # Do floor division for i and j. Save the expression to the result_division_floored variable
-    if not result_division_floored:
+    if result_division_floored == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
     assert i // j == result_division_floored, f'Expected {i // j}, but got {result_division_floored}'
 
