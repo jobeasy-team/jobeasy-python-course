@@ -10,8 +10,8 @@ def counter(string, char):
     pass
 
 
-# Enter a random number and save it in variable number_1. Then create function number_multiplication which will return
-# a result of multiplication of digits this number.
+# Enter a random number and save it in variable number_1. Then create a function number_multiplication
+# that will multiply all the digits together and return the result.
 
 number_1 = None
 def number_multiplication(number):
@@ -19,7 +19,7 @@ def number_multiplication(number):
 
 
 # Enter a random number and save it in variable number_2. Then create function number_reverse which will return
-# a number with digits of number_1 in reverse direction
+# a number with digits of number_1 in reverse order
 
 number_2 = None
 def number_reverse(number):

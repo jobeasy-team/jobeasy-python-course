@@ -71,8 +71,8 @@ def test_counter():
 
 
 def test_number_multiplication():
-    # Enter a random number and save it in variable number_1. Then create function number_multiplication which will
-    # return a result of multiplication of digits this number.
+    # Enter a random number and save it in variable number_1. Then create a function number_multiplication
+    # that will multiply all the digits together and return the result.
     if number_multiplication(number_1) == None or number_1 == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
     result = 0
@@ -87,7 +87,7 @@ def test_number_multiplication():
 
 def test_number_reverse():
     # Enter a random number and save it in variable number_2. Then create function number_reverse which will return
-    # a number with digits of number_1 in reverse direction
+    # a number with digits of number_1 in reverse order
     if number_reverse(number_2) == None or number_2 == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
     num_string = str(number_2)

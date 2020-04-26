@@ -64,8 +64,8 @@ import pytest
 
 
 def test_print_name_three_times():
-    # Enter your name, save it in name variable and then display their name three times. Each time add your name to
-    # result variable
+    # Enter your name, save it in name variable and create function print_name_three_times which returns
+    # value that is equal to your name three times
     if print_name_three_times(name_1) == None or name_1 == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
     assert name_1 * 3 == print_name_three_times(name_1)
@@ -81,8 +81,8 @@ def test_print_name_number_times():
 
 
 def test_sum_digits():
-    # Enter a random string, which include only digits. Write function sum_digits which find a sum of digits in this
-    # string and save it in
+    # Enter a random string, which includes only digits. Write function sum_digits which find a sum of digits in this
+    # string
     result = 0
     if sum_digits(string_number_1) == None or string_number_1 == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
@@ -93,7 +93,7 @@ def test_sum_digits():
 
 
 
-# Create function which sum up all even numbers between 2 and 100 (include 100)
+# Create function which sums up all even numbers between 2 and 100 (include 100)
 def test_sum_even_numbers():
     if sum_even_numbers() == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
