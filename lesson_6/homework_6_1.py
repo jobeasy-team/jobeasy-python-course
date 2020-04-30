@@ -1,33 +1,29 @@
-# Given a list in list_1 variable, write a swap_first_last function to return new list with
-# swap first and last element of the list.
+# You are given a list in list_1 variable, write a swap_first_last function to return a new list with
+# the first and the last elements of the list swapped.
 list_1 = [1, 'asdasd', True, 2, False, 4, 'Hello world', None, range(1, 11), 100]
-
 
 def swap_first_last(array_1):
     pass
 
 
-# Given a list in list_2 variable, write a reverse_list function which create new list with reverse direction.
+# You are given a list in list_2 variable, write a reverse_list function which creates a new list in reversed order.
 list_2 = [1, 'asdasd', True, 2, False, 4, 'Hello world', None, range(1, 11), 100]
-
 
 def reverse_list(array_2):
     pass
 
 
-# Create list which contains only number items and save it in the list_3 variable. Then write multiply_list_items
-# program to multiplies all the items in a list.
+# Create a list which contains only number items and save it to the list_3 variable. Then write multiply_list_items
+# function to multiply all the items in a list.
 list_3 = None
-
 
 def multiply_list_items(array_3):
     pass
 
 
-# Create list which contains only number items and save it in the list_4 variable. Then write a smallest_item_list
+# Create a list which contains only number items and save it to the list_4 variable. Then write a smallest_item_list
 # function to get the smallest number from a list
 list_4 = [10, 2, 5, 5, 0]
-
 
 def smallest_item_list(array_4):
     pass
@@ -36,12 +32,11 @@ def smallest_item_list(array_4):
 # Given a list in list_5 variable, write a remove_duplicates_list function to remove duplicates from a list.
 list_5 = [1, 2, 3, 1, 1, 1, 2, 3, 4, 'hello', 1, 2, 3, 4, 'hello', 'hello', 1]
 
-
 def remove_duplicates_list(array_5):
     pass
 
 
-# Given a list in list_6 variable and enter integer number and save it in number_1 variable,
+# You are given a list in list_6 variable.Enter an integer number and save it to number_1 variable,
 # write a longer_words_list function which will return the list of words that are longer than number_1
 # from a given list of words.
 number_1 = 5
@@ -53,7 +48,6 @@ list_6 = ['On', 'it', 'differed', 'repeated', 'wandered', 'required', 'in.', 'Th
           'should', 'if', 'waited', 'common', 'person', 'little', 'oh.', 'Improved', 'civility', 'graceful', 'few',
           'smallest', 'screened', 'settling.', 'Likely', 'active', 'her', 'warmly', 'has.']
 
-
 def longer_words_list(array_6, number1):
     pass
 
@@ -63,15 +57,13 @@ def longer_words_list(array_6, number1):
 list_7 = [1, 2, 3, 1, 1, 1, 2, 3, 4, 'hello', 1, 2, 3, 4, 'hello', 'hello', 1]
 list_8 = ['asdasd', True, 8, False, 94, 'Hello world', None, range(1, 11), 100, 1]
 
-
 def find_item_lists(array_7, array_8):
     pass
 
 
-# Given a list in list_9 variable. Write a function string_to_list to convert a list of
+# You are given a list in list_9 variable. Write a function string_to_list to convert a list of
 # characters into a string.
 list_9 = ['I', ' ', 'l', 'i', 'k', 'e', ' ', 'P', 'y', 't', 'h', 'o', 'n']
-
 
 def list_to_string(list9):
     pass
@@ -82,7 +74,6 @@ def list_to_string(list9):
 list_10 = [1, 2, 3, 1, 1, 1, 2, 3, 4]
 number_2 = 3
 
-
 def count_items_list(array_10, number2):
     pass
 
@@ -91,6 +82,6 @@ def count_items_list(array_10, number2):
 # given list.
 list_11 = [1, 2, 3, 1, 1, 1, 2, 3, 4]
 
-
 def even_items_list(array_11):
     pass
+
