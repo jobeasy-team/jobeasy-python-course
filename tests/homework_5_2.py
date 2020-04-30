@@ -80,7 +80,7 @@ def test_number_multiplication():
     length = len(num_string)
     index = 0
     while index < length:
-        result *= num_string[index]
+        result *= int(num_string[index])
         index += 1
     assert number_multiplication(number_1) == result
 
@@ -94,7 +94,7 @@ def test_number_reverse():
     index = len(num_string)
     result = ''
     while index > 0:
-        result += num_string[index]
+        result += num_string[index-1]
         index -= 1
     assert number_multiplication(number_1) == int(result)
 
