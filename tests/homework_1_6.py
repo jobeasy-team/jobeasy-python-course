@@ -68,7 +68,7 @@ def test_fahrenheit():
     # !important you should save only number to result_temperature. Formula (32°F − 32) × 5/9 = 0°C
     if temperature_fahrenheit == None or result_temperature == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
-    assert (int(temperature_fahrenheit) - 32) * 5 / 9 == result_temperature
+    assert float((int(temperature_fahrenheit) - 32) * 5 / 9) == result_temperature
 
 
 
