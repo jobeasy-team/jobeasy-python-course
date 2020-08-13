@@ -58,43 +58,36 @@
 # THIS FILE HAS ANSWERS. USE IT ONLY WHEN YOU HAVE SUCCESSFULLY PASSED HOMEWORK TESTS
 
 
-from lesson_5.homework_5_2 import counter, string_1, char_1, number_multiplication, number_1, number_reverse, number_2
+from lesson_1.homework_1_5 import result_string_1, result_string_2, result_value, number, result_string_3, n, word
 import pytest
 
 
-def test_counter():
-    # Enter a random string in the variable string_1, then enter a character and save it in the variable char_1.
-    # Write function counter, which will count how many times your character is included in your string
-    if counter(string_1, char_1) == None or string_1 == None or char_1 == None:
+def test_newline_string():
+    # Change result_string_1 that 'very simple language' will be displayed on a new line
+    if result_string_1 == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
-    assert string_1.count(char_1) == counter(string_1, char_1)
+    assert 'Python is the\nvery simple language' or 'Python is the \nvery simple language' or \
+           'Python is the \n very simple language' == result_string_1
 
 
-def test_number_multiplication():
-    # Enter a random number and save it in variable number_1. Then create a function number_multiplication
-    # that will multiply all the digits together and return the result.
-    if number_multiplication(number_1) == None or number_1 == None:
+def test_fix_string():
+    # Change result_string_2 to print out the phrase: 'What does the word 'integer' mean'
+    if result_string_2 == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
-    result = 0
-    num_string = str(number_1)
-    length = len(num_string)
-    index = 0
-    while index < length:
-        result *= int(num_string[index])
-        index += 1
-    assert number_multiplication(number_1) == result
+    assert 'What does the word \'integer\' mean' == result_string_2
 
 
-def test_number_reverse():
-    # Enter a random number and save it in variable number_2. Then create function number_reverse which will return
-    # a number with digits of number_1 in reverse order
-    if number_reverse(number_2) == None or number_2 == None:
+def test_input_value():
+    # Assign number variable to value "5" (as a string). Then rise the number to the power 3.
+    # Save the expression to result_value variable
+    if number == None or result_value == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
-    num_string = str(number_2)
-    index = len(num_string)
-    result = ''
-    while index > 0:
-        result += num_string[index-1]
-        index -= 1
-    assert number_multiplication(number_1) == int(result)
+    assert result_value == int(number) ** 3
 
+
+def test_multiplication_string():
+    # Enter a random number, then save the value to n variable.
+    # Finally, you should repeat the variable "word" n times and save the value to result_string_3
+    if n == None or result_string_3 == None or word == None:
+        pytest.skip(f"You didn't finish this task. the result variable equals None")
+    assert n * word == result_string_3

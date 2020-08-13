@@ -58,7 +58,7 @@
 # THIS FILE HAS ANSWERS. USE IT ONLY WHEN YOU HAVE SUCCESSFULLY PASSED HOMEWORK TESTS
 
 
-from lesson_2.homework_2_3 import temperature_fahrenheit, result_temperature
+from lesson_1.homework_1_6 import temperature_fahrenheit, result_temperature
 import pytest
 
 

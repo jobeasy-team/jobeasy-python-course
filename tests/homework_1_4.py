@@ -1,22 +1,9 @@
-# PLEASE, DON'T CHEATING
-# PLEASE, DON'T CHEATING
-# PLEASE, DON'T CHEATING
-# PLEASE, DON'T CHEATING
-# PLEASE, DON'T CHEATING
-# PLEASE, DON'T CHEATING
-# PLEASE, DON'T CHEATING
-# PLEASE, DON'T CHEATING
-# PLEASE, DON'T CHEATING
-# PLEASE, DON'T CHEATING
-# PLEASE, DON'T CHEATING
-# PLEASE, DON'T CHEATING
-# PLEASE, DON'T CHEATING
-# PLEASE, DON'T CHEATING
-# PLEASE, DON'T CHEATING
-# PLEASE, DON'T CHEATING
-# PLEASE, DON'T CHEATING
-# PLEASE, DON'T CHEATING
-# PLEASE, DON'T CHEATING
+# PLEASE, DON'T CHEAT
+# PLEASE, DON'T CHEAT
+# PLEASE, DON'T CHEAT
+# PLEASE, DON'T CHEAT
+# PLEASE, DON'T CHEAT
+# PLEASE, DON'T CHEAT
 # PLEASE, DON'T CHEAT
 # PLEASE, DON'T CHEAT
 # PLEASE, DON'T CHEAT
@@ -77,7 +64,7 @@
 # THIS FILE HAS ANSWERS. USE IT ONLY WHEN YOU HAVE SUCCESSFULLY PASSED HOMEWORK TESTS
 
 
-from lesson_2.homework_2_1 import result_string_1, result_string_2, result_string_3, result_name, result_full_name, \
+from lesson_1.homework_1_4 import result_string_1, result_string_2, result_string_3, result_name, result_full_name, \
     first_name, last_name, result_full_name_length, result_ca_capital, result_planet
 import pytest
 
