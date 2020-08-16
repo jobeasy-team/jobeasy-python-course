@@ -58,7 +58,7 @@
 # THIS FILE HAS ANSWERS. USE IT ONLY WHEN YOU HAVE SUCCESSFULLY PASSED HOMEWORK TESTS
 
 
-from lesson_3.homework_3_1 import first_number, second_number, result_1, number_1, result_2, first_name, last_name, \
+from lesson_2.homework_2_1 import first_number, second_number, result_1, number_1, result_2, first_name, last_name, \
     result_3, number_2, result_4, age, result_5, month, result_month
 import pytest
 
@@ -75,7 +75,7 @@ def test_two_numbers():
 
 
 def test_number():
-    # Enter a number that is under 20 in number_1 variable. If this number is 20 or
+    # Enter a number in number_1 variable. If this number is 20 or
     # # higher save “Too high” text to result_2, otherwise save “Thank you”.
     if result_2 == None or number_1 == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
@@ -117,7 +117,7 @@ def test_ages():
     if age == None or result_5 == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
     if age < 16:
-        assert result_5 == "You can go Trickor-Treating"
+        assert result_5 == "You can go Trick-or-Treating"
     elif age < 17:
         assert result_5 == "You can buy a lottery ticket"
     elif age < 18:
@@ -129,7 +129,7 @@ def test_ages():
 def test_month():
     # Enter a number between 1 and 12, save this value to month variable. Find which month is it.
     # (January, February, March, April, May, June, Jule, August, September, October, November, December)
-    # Write answer in result_decade in lower case
+    # Write answer in result_month in lower case
     if month == None or result_month == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
     if month == 1:
@@ -156,5 +156,3 @@ def test_month():
         assert result_month == 'November'.lower()
     if month == 12:
         assert result_month == 'December'.lower()
-    if month > 12:
-        pytest.fail('Choose number between 1 and 12')

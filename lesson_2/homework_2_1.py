@@ -5,9 +5,8 @@ first_number = None
 second_number = None
 result_1 = None
 
-
-# Enter a number that is under 20 in number_1 variable. If this number is 20 or
-# # higher save “Too high” text to result_2, otherwise save “Thank you”.
+# Enter a random number in number_1 variable. If this number is 20 or
+# higher save “Too high” text to result_2, otherwise save “Thank you”.
 number_1 = None
 result_2 = None
 
@@ -40,7 +39,7 @@ result_5 = None
 
 # Enter a number between 1 and 12, save this value to month variable. Find which month is it.
 # (January, February, March, April, May, June, Jule, August, September, October, November, December)
-# Write answer in result_decade in lower case
+# Write answer in result_month in lower case
 
 month = None
 result_month = None

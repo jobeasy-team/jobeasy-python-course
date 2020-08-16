@@ -58,13 +58,13 @@
 # THIS FILE HAS ANSWERS. USE IT ONLY WHEN YOU HAVE SUCCESSFULLY PASSED HOMEWORK TESTS
 
 
-from lesson_3.homework_3_2 import number, number_1, number_2, result_1, result_2, result_3, result_4, first_name, last_name, \
-    random_number
+from lesson_2.homework_2_2 import number, number_1, number_2, result_1, result_2, result_3, result_4, first_name, \
+    last_name, random_number
 import pytest
 
 
 def test_number():
-    # Input a number between 1 and 20, save this value to number variable.
+    # Enter a number between 1 and 20, save this value to number variable.
     # If number is greater than 0 and less than or equal to 7, save the number * 10 to result_1.
     # If number is  greater than 7 and less than or equal to 15, save the result of floor division of the number divided by
     # 3 to result_1 variable
@@ -83,7 +83,7 @@ def test_number():
 
 
 def test_two_numbers():
-    # Input two numbers between 1 and 10, save this values to number_1 variable and number_2 variables.
+    # Enter two numbers between 1 and 10, save this values to number_1 variable and number_2 variables.
     # If number_1 and number_2 are greater than 0 and less than or equal to 5 save in the product of their multiplication
     # to result_2
     # If one of the variables (number_1 or number_2) is greater than 5 and less than or equal to 10,
@@ -103,8 +103,8 @@ def test_two_numbers():
 
 
 def test_name_length():
-    # Input your first name and save it to first_name variable,
-    # then input last name and save it to last_name
+    # Enter your first name and save it to first_name variable,
+    # then Enter last name and save it to last_name
     # If first_name or last_name are shorter than 6 characters, save a full name (with a space between) to result_3
     # Else save first_name to result_3 as many times as length of last_name value
     if first_name == None or last_name == None or result_3 == None:
@@ -116,7 +116,7 @@ def test_name_length():
 
 
 def test_even():
-    # Input a random number. Save this value to random_number variable
+    # Enter a random number. Save this value to random_number variable
     # If this number is less 10 or greater than 99, save the text "Please, put in a number between 10 and 99" to result_4
     # If a number doesn't meet the first condition, find the remainder of random_value divided by 2.
     # If it is 0, save the text "Even number" to result_4 , else save the message "Odd number"
