@@ -94,7 +94,7 @@ def test_sum_digits():
 
 # Create code which sums up all even numbers between 2 and 100 (include 100) and save it in result_4 variable
 def test_sum_even_numbers():
-    if result_4() == None:
+    if result_4 == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
     result = 0
     for number in range(2, 101, 2):
