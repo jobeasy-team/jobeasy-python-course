@@ -11,13 +11,13 @@ print(result_1)
 
 # Round up result_2 to greater value.
 
-result_2 = 5 / 2 * 6 + 1.25 - 4
+result_2 = math.ceil(5 / 2 * 6 + 1.25 - 4)
 print('round up to greater value')
-print(math.ceil(result_2))
+print(result_2)
 
 
 # Round up result_3 to lesser value.
 
-result_3 = 8 / 3 * 5 + 4.75 - 7
+result_3 = math.floor(8 / 3 * 5 + 4.75 - 7)
 print('round up to lesser value')
-print(round(result_3))
+print(result_3)

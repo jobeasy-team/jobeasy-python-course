@@ -1,7 +1,7 @@
 # Find the second power of a variable. Save the expression to result_1 variable
 
 a = 10
-result_1 = 2**a
+result_1 = a**2
 print('second power')
 print(result_1)
 
