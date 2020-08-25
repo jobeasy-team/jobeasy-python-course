@@ -22,4 +22,4 @@ result_3 = int(c)
 d = 5.04
 e = 2
 f = 1.2
-result_4 = (d+e)*f
+result_4 = int((d+e)*f)
