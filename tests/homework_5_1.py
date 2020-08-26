@@ -58,7 +58,7 @@
 # THIS FILE HAS ANSWERS. USE IT ONLY WHEN YOU HAVE SUCCESSFULLY PASSED HOMEWORK TESTS
 
 
-from lesson_4.homework_4_1 import difference, division, function_1, temerature_convertor, taxi_fare
+from lesson_5.homework_5_1 import difference, division, function_1, temerature_convertor, taxi_fare
 import pytest
 
 
