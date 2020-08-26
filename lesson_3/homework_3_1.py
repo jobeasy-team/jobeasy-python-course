@@ -4,11 +4,11 @@
 # Enter your name, save it in name variable and save in result_1 variable your name repeated 3 times (use loops)
 
 name_1 = "Sona"
-result_1 = name_1
-x=0
-while (x<3):
-    print(result_1)
-    x=x+1
+result_1 = ''
+for _ in range(3):
+    result_1 += name_1
+print(result_1)
+
 
 # TODO: Here is your code
 
