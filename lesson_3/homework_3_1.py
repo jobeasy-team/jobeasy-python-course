@@ -7,26 +7,13 @@ name_1 = None
 result_1 = None
 
 # TODO: Here is your code
-name = input('Enter your name: ')
-name_1 = name  # 'Jim'
+#name = input('Enter your name: ')
+name_1 = 'James' #name
 count = 0
 while count <= 3:
     result_1 = name_1 * count
     count += 1
 print(result_1)
-
-'''
-def enter_name(name):
-    name_1 = list(name)
-    counter = 0
-    while counter < 3:
-        name_1.append(name)
-        counter += 1
-    result_1 = name_1[3:]
-    return result_1
-
-enter_name('Jim')
-'''
 
 # Ex. 2
 # Modify your previous program so that it will enter your name (save it in variable  name_2) and a number
@@ -37,8 +24,8 @@ number_1 = None
 result_2 = None
 
 # TODO: Here is your code
-name = input('Enter your name: ')
-name_2 = name
+#name = input('Enter your name: ')
+name_2 = "Bond" #name
 number_1 = 6
 while count <= number_1:
     result_2 = name_2 * count
@@ -54,12 +41,12 @@ result_3 = None
 
 # TODO: Here is your code
 string_number_1 = "47802398492038492842"
-sum = 0
+sum0 = 0
 for char in string_number_1:
     if char.isdigit():
-        sum += int(char)
-result_3 = sum
-print(sum)
+        sum0 += int(char)
+result_3 = sum0
+print(sum0)
 
 # Ex. 4
 # Create code which sums up all even numbers between 2 and 100 (include 100) and save it in result_4 variable
