@@ -7,8 +7,8 @@ name_1 = None
 result_1 = None
 
 # TODO: Here is your code
-#name = input('Enter your name: ')
-name_1 = 'James' #name
+# name = input('Enter your name: ')
+name_1 = 'James'  # name
 count = 0
 while count <= 3:
     result_1 = name_1 * count
@@ -24,8 +24,8 @@ number_1 = None
 result_2 = None
 
 # TODO: Here is your code
-#name = input('Enter your name: ')
-name_2 = "Bond" #name
+# name = input('Enter your name: ')
+name_2 = "Bond"  # name
 number_1 = 6
 while count <= number_1:
     result_2 = name_2 * count
