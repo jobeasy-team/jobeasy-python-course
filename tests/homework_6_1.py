@@ -67,6 +67,8 @@ import pytest
 def test_swap_first_last():
     # You are given a list in list_1 variable, write a swap_first_last function to return a new list with
     # the first and the last elements of the list swapped.
+    # Return this list
+
     if swap_first_last(list_1) == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
     result = list_1.copy()
@@ -76,6 +78,7 @@ def test_swap_first_last():
 
 def test_reverse_list():
     # You are given a list in list_2 variable, write a reverse_list function which creates a new list in reversed order.
+    # Return this list
     if reverse_list(list_2) == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
     result = list_2.copy()
@@ -85,7 +88,7 @@ def test_reverse_list():
 
 def test_multiply_list_items():
     # Create a list which contains only number items and save it to the list_3 variable. Then write multiply_list_items
-    # function to multiply all the items in a list.
+    # function to multiply all the items in a list. Return result of multiplication
     if list_3 == None or multiply_list_items(list_3) == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
     result = 1
@@ -96,7 +99,7 @@ def test_multiply_list_items():
 
 def test_smallest_item_list():
     # Create a list which contains only number items and save it to the list_4 variable. Then write a smallest_item_list
-    # function to get the smallest number from a list
+    # function to get the smallest number from a list. Return smallest element
     if list_4 == None or smallest_item_list(list_4) == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
     min_1 = list_4[0]
@@ -108,6 +111,7 @@ def test_smallest_item_list():
 
 def test_remove_duplicates_list():
     # Given a list in list_5 variable, write a remove_duplicates_list function to remove duplicates from a list.
+    # Return new list without duplicates
     if remove_duplicates_list(list_5) == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
     result = []
@@ -145,9 +149,8 @@ def test_find_item_lists():
 
 
 def test_list_to_string():
-    # You are given a list in list_9 variable. Write a function string_to_list to convert a list of
+    # You are given a list in list_9 variable. Write a function list_to_string to convert a list of
     # characters into a string.
-
 
     if list_to_string(list_9) == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
@@ -156,9 +159,8 @@ def test_list_to_string():
 
 
 def test_count_items_list():
-    # Given a list of numbers in list_10 and a number number_2, write count_items_list function which will count number
-    # of occurrences of x in the given list
-
+    # Given a list of numbers in list_10 and a number number_2, write count_items_list function which will count number of
+    # occurrences of number_2 in the given list
 
     if count_items_list(list_10, number_2) == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
