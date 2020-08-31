@@ -2,8 +2,8 @@
 # of string_1. Use indexes.
 
 string_1 = 'Python'
-result_1 = None
-result_2 = None
+result_1 = string_1[0]
+result_2 = string_1[-1]
 
 
 # Save to variable result_3 string value from string_2 variable, written in reverse order, using concatenation.
