@@ -134,7 +134,6 @@ def test_find_item_lists():
     # Given two lists in list_7 and list_8 variables. Write a function find_item_lists that takes two lists and returns
     # True if they have at least one common member.
 
-
     if find_item_lists(list_7, list_8) == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
     result = False
@@ -148,7 +147,6 @@ def test_list_to_string():
     # You are given a list in list_9 variable. Write a function string_to_list to convert a list of
     # characters into a string.
 
-
     if list_to_string(list_9) == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
     result = ''.join(list_9)
@@ -159,7 +157,6 @@ def test_count_items_list():
     # Given a list of numbers in list_10 and a number number_2, write count_items_list function which will count number
     # of occurrences of x in the given list
 
-
     if count_items_list(list_10, number_2) == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
     result = list_10.count(number_2)
@@ -169,7 +166,6 @@ def test_count_items_list():
 def test_even_items_list():
     # Given a list of numbers, write a function even_items_list to return new list which include all even numbers in
     # given list.
-
 
     if even_items_list(list_11) == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
