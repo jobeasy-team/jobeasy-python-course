@@ -80,7 +80,7 @@ def test_number_multiplication():
     length = len(num_string)
     index = 0
     while index < length:
-        result *= num_string[index]
+        result *= int(num_string[index])
         index += 1
     assert number_multiplication(number_1) == result
 
@@ -88,13 +88,15 @@ def test_number_multiplication():
 def test_number_reverse():
     # Enter a random number and save it in variable number_2. Then create function number_reverse which will return
     # a number with digits of number_1 in reverse direction
+
+
     if number_reverse(number_2) == None or number_2 == None:
         pytest.skip(f"You didn't finish this task. the result variable equals None")
     num_string = str(number_2)
-    index = len(num_string)
+    index = len(num_string) - 1
     result = ''
-    while index > 0:
+    while index >= 0:
         result += num_string[index]
         index -= 1
-    assert number_multiplication(number_1) == int(result)
+    assert number_reverse(number_2) == int(result)
 
