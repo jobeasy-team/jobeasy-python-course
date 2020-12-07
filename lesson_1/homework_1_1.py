@@ -1,7 +1,9 @@
 # Sum up a and b. Write expression to the result_sum variable
 from unittest import result
 
-numbers =[10,15]
+a = 10
+b = 15
+numbers =[a, b]
 result_sum = sum(numbers)
 print(result_sum)
 
